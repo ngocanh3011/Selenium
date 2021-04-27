@@ -1,0 +1,7 @@
+from selenium import webdriver
+chrome_driver_path = "D:\KTPM\ChromeDriver Set-up\chromedriver_win32\chromedriver.exe"
+driver = webdriver.Chrome(chrome_driver_path)
+
+driver.get("http://practice.automationtesting.in/")
+
+driver.close()
