@@ -17,4 +17,4 @@ registerBtn = driver.find_element_by_name("register")
 print(registerBtn.text)
 registerBtn.click()
 
-# driver.close()
+driver.close()
