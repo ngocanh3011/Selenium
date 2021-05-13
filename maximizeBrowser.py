@@ -8,4 +8,4 @@ time.sleep(5)
 driver.get("http://practice.automationtesting.in/")
 
 
-# driver.close()
+driver.close()
