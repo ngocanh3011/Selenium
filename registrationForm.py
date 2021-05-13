@@ -9,7 +9,7 @@ myAccBtn = driver.find_element_by_id("menu-item-50")
 myAccBtn.click()
 
 enterEmail = driver.find_element_by_id("reg_email")
-enterEmail.send_keys("nanh@gmail.com")
+enterEmail.send_keys("ngocanh@gmail.com")
 time.sleep(2)
 
 enterPass = driver.find_element_by_id("reg_password")
