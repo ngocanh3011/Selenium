@@ -11,8 +11,8 @@ myAccBtn.click()
 enterEmail = driver.find_element_by_id("reg_email")
 enterEmail.send_keys("tranngocanh45@gmail.com")
 
-enterEmail = driver.find_element_by_id("reg_password")
-enterEmail.send_keys("ngocanhtran123@")
+enterPass = driver.find_element_by_id("reg_password")
+enterPass.send_keys("ngocanhtran123@")
 
 registerBtn = driver.find_element_by_name("register")
 registerBtn.click()
